@@ -1,0 +1,103 @@
+body{
+    /* define a marge */
+    margin: 0;
+    padding: 0;
+    /* indica que o tamanho agora levará em conta até a borda ou seja, o width será a soma do conteúdo com a borda e o padding. */
+    box-sizing: border-box;
+    /* coloca a imagem especificada no fundo da pagina */
+    background-image: linear-gradient(transparent 0%, #000000 90%), url(./imagens/imgFundo.jpeg);
+    /* imagem por fora*/
+    background-size: cover;
+    /* opacidade da imagem */
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    text-align: center
+}
+#video1{
+    width: 700px;
+    height: 410px;
+    border: none;
+}
+h1{
+    color:#f0e6d2;
+    font-weight: 700px;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 13px;
+}
+h2{
+    color:#e6d2a9;
+    font-weight: 700px;
+    letter-spacing: .05em;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.img {
+    width: 100px;
+}
+/* menu */
+:root {
+    --cor-fundo: #222925;
+    --cor-hover: #7494d4;
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: 1s; 
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+/* p */
+p{
+    color:#f0e6d2;
+}
+#h1_v1{
+    font-weight: 0px;
+    font-size: 30px;
+}
+#resumo{
+    font-size: 60px;
+}

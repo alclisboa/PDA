@@ -1,0 +1,95 @@
+body {
+    /* define a marge */
+    margin:none;
+    padding: 0;
+    /* indica que o tamanho agora levará em conta até a borda ou seja, o width será a soma do conteúdo com a borda e o padding. */
+    box-sizing: border-box;
+    background-color: black;
+    /* deixa tudo no centro */
+     text-align: center;
+     
+}
+
+img {
+    width: 1000px;
+}
+
+h1,h2,p{
+    color:#f0e6d2;
+}
+
+#video1{
+    width: 1000px;
+    height: 900px;
+}
+
+/* menu */
+:root {
+    --cor-fundo: #222925;
+    --cor-hover: #7494d4;
+    --cor-primaria: rgb(231, 241, 236);
+    margin: none;
+
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: 1s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+#myVideo{
+    /* height: 710.5px;  */
+    height: 700px;
+    border: none;
+    min-width: 100%;
+    margin: 0;
+   
+}
+.content {
+    position: fixed;
+    bottom: 0;
+    background: #00000080;
+    color: #f1f1f1;
+    width: 100%; 
+    padding: 10px;
+    margin: 1.9em 0; 
+  }
